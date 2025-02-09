@@ -1,0 +1,18 @@
+<template>
+  <div>
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+          <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">About Me</h2>
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            A passionate developer with a keen eye for detail and a love for creating beautiful, functional applications.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script setup>
+// About page logic here
+</script>
