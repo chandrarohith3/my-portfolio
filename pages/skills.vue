@@ -2,42 +2,49 @@
   <div>
     <section class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">Skills</h2>
-        <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <h2 class="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl mb-12">Skills</h2>
+        <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-lg font-medium text-gray-900">Frontend</h3>
+            <h3 class="text-lg font-medium text-gray-900">Programming</h3>
             <ul class="mt-2 text-gray-500">
-              <li>HTML/CSS</li>
-              <li>JavaScript</li>
-              <li>Vue.js</li>
-              <li>Nuxt.js</li>
+              <li>C</li>
+              <li>Python</li>
+              <li>Embedded C</li>
+              <li>Linux</li>
             </ul>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-lg font-medium text-gray-900">Backend</h3>
+            <h3 class="text-lg font-medium text-gray-900">Technical Skills</h3>
             <ul class="mt-2 text-gray-500">
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>Python</li>
-              <li>SQL</li>
+              <li>LPC2129</li>
+              <li>STM32f407</li>
+              <li>IOT</li>
             </ul>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-sm">
             <h3 class="text-lg font-medium text-gray-900">Tools</h3>
             <ul class="mt-2 text-gray-500">
-              <li>Git</li>
-              <li>Docker</li>
-              <li>VS Code</li>
-              <li>Figma</li>
+              <li>Keil u version 4</li>
+              <li>CANalyzer</li>
+              <li>PyCharm</li>
+              <li>Linux VMWare</li>
             </ul>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-lg font-medium text-gray-900">Other</h3>
+            <h3 class="text-lg font-medium text-gray-900">Version Control</h3>
             <ul class="mt-2 text-gray-500">
-              <li>UI/UX Design</li>
-              <li>Responsive Design</li>
-              <li>SEO</li>
-              <li>Testing</li>
+              <li>GIT</li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-lg font-medium text-gray-900">Protocols</h3>
+            <ul class="mt-2 text-gray-500">
+              <li>UART</li>
+              <li>SPI</li>
+              <li>I2C</li>
+              <li>CAN</li>
+              <li>UDS for V&V</li>
+              <li>MQTT</li>
             </ul>
           </div>
         </div>
@@ -45,7 +52,3 @@
     </section>
   </div>
 </template>
-
-<script setup>
-// Skills page logic here
-</script>

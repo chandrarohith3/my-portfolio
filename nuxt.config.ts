@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
+
   app: {
     baseURL: '/my-portfolio/', // Replace with your repo name
     head: {
@@ -15,5 +16,7 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap' }
       ]
     }
-  }
+  },
+
+  compatibilityDate: '2025-02-09'
 });
